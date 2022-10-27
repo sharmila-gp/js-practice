@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+
+</head>
+<body>
+<div class="box">
+<p>
+Two trains of equal length are running on parallel lines in the same direction at 46 km/hr and 36 km/hr. The faster train passes the slower train in 36 seconds. The length of each train is:
+</p>
+</div>
+<script>
+var s1=46;
+var s2=36;
+var t=36;
+var num=2;
+var rs=s1-s2;
+rs=rs*5/18;
+var x=rs*t;
+var len=x/num;
+alert("The length of each train is: "+len+" m");
+</script>
+</body>
+</html>

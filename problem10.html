@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A 270 metres long train running at the speed of 120 kmph crosses another train running in opposite direction at the speed of 80 kmph in 9 seconds. What is the length of the other train?
+</p>
+</div>
+<script>
+var l1=270;
+var s1=120;
+var s2=80;
+var t2=9;
+var rs=s1+s2;
+rs=rs*5/18;
+var len=rs*t2;
+len=len-l1;
+alert("the length of the other train: "+len +" m");
+</script>
+</body>
+</html>

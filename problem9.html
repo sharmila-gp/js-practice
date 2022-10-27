@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A jogger running at 9 kmph alongside a railway track in 240 metres ahead of the engine of a 120 metres long train running at 45 kmph in the same direction. In how much time will the train pass the jogger?
+</p>
+</div>
+<script>
+var sm=9;
+var st=45;
+var lrt=240;
+var lt=120;
+var rs=st-sm;
+rs=rs*5/18;
+var len=lrt+lt;
+var time=len/rs;
+alert("The time taken to pass the jogger by the train is "+time+" sec");
+</script>
+</body>
+</html>

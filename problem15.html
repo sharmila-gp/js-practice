@@ -1,0 +1,30 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<div class="box">
+<body>
+<p>
+A train travelling at a speed of 75 mph enters a tunnel 3 1/2 miles long. The train is 1/4 mile long. How long does it take for the train to pass through the tunnel from the moment the front enters to the moment the rear emerges?
+</p>
+</div>
+<script>
+var s=75;
+var ltun=7/2;
+var lt=1/4;
+var len=ltun+lt;
+var time=len/s;
+time=time*60;
+alert("The train passes the tunnel in: "+time+" mins");
+</script>
+</body>
+</html>
