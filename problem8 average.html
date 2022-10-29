@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+The average weight of A, B and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, then the weight of B is:
+</p>
+</div>
+<script>
+var x=45;
+var a=40;
+var b=43;
+var nox=3;
+var noab=2;
+x=x*nox;
+console.log(x);
+a=a*noab;
+b=b*noab;
+var y=a+b;
+y=y-x;
+console.log("The value of B: "+y);
+var A=a-y;
+console.log("The value of A: "+A);
+var C=b-y;
+console.log("The value of C: "+C);
+</script>
+</body>
+</html>

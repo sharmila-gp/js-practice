@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<div class="box">
+<body>
+<p>
+A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?
+</p>
+</div>
+<script>
+var month1=6435;
+var month2=6927;
+var month3=6855;
+var month4=7230;
+var month5=6562;
+var avg=6500;
+var monthno=6;
+var total=month1+month2+month3+month4+month5;
+var average=avg*monthno;
+var month6=average-total;
+console.log("The sale of sixth month is "+month6);
+</script>
+</body>
+</html>

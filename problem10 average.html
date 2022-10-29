@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:
+</p>
+</div>
+<script>
+var sunvisit=510;
+var dayvisit=240;
+var days=30;
+var sunno=5;
+var week=days-sunno;
+var x=sunvisit*sunno;
+var y=dayvisit*week;
+x=x+y;
+y=x/days;
+console.log("The average number of visitors: "+y);
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A family consists of two grandparents, two parents and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years and that of the grandchildren is 6 years. What is the average age of the family?
+</p>
+</div>
+<script>
+var ngp=2;
+var np=2;
+var ngc=3;
+var agp=67;
+var ap=35;
+var agc=6;
+var gp=agp*ngp;
+var p=ap*np;
+var gc=agc*ngc;
+var total=ngp+ngc+np;
+var average=(gp+p+gc);
+average=average/total;
+console.log("The average age of the family is : "+average);
+</script>
+</body>
+</html>

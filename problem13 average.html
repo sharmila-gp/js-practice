@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+What is the average of first five multiples of 12?
+</p>
+</div>
+<script>
+var x=12;
+var j=5;
+var result=0;
+var y;
+var avg;
+for(var i=1;i<=j;i++)
+{
+y=x*i;
+result=result+y;
+}
+avg=result/j;
+console.log("The average of first multiples of 12 is "+avg);
+</script>
+</body>
+</html>

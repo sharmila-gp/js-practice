@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?
+</p>
+</div>
+<script>
+var team=11;
+var ca=26;
+var wa=ca+3;
+var x=team-2;
+var tot2=ca+wa;
+tot2=tot2-x;
+var y=team-x;
+x=tot2/y;
+console.log("the average age of the team: "+x);
+</script>
+</body>
+</html>
