@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A man can row at 12 km/hr in still water. He finds that he takes twice as much time to row upstream than to row downstream when he covers a certain distance. Find the speed of the stream.
+</p>
+</div>
+<script>
+var still=12;
+var dowtime=2;
+var uptime=1;
+var speed=uptime+dowtime;
+speed=speed/2;
+var upstr= still/speed;
+var dowstr=2*upstr;
+var str=dowstr-upstr;
+str=str/2;
+console.log("the speed of the stream. "+str+" km/hr");
+</script>
+</body>
+</html>

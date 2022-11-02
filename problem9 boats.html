@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+Speed of a boat in standing water is 9 kmph and the speed of the stream is 1.5 kmph. A man rows to a place at a distance of 105 km and comes back to the starting point. The total time taken by him is:
+</p>
+</div>
+<script>
+var stillspeed=9;
+var streamspeed=1.5;
+var dis=105;
+var upstream=stillspeed-streamspeed;
+var downstream=stillspeed+streamspeed;
+var up=dis/upstream;
+var down=dis/downstream;
+var time=up+down;
+console.log("The total time taken by him is: "+time+" hours");
+</script>
+</body>
+</html>

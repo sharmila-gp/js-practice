@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+ A man covers a distance of 36 km in 6 hours downstream and a distance of 40 km upstream in 8 hours. What is his speed in still water?
+</p>
+</div>
+<script>
+var dowdis=36;
+var updis=40;
+var dowti=6;
+var upti=8;
+var dowst=dowdis/dowti;
+var upst=updis/upti;
+var still=dowst+upst;
+still=still/2;
+console.log("speed in still water: "+still+" km/hr");
+</script>
+</body>
+</html>

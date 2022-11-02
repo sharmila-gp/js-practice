@@ -1,0 +1,37 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A man can row three-quarters of a kilometre against the stream in 11 1/4 minutes and down the stream in 7 1/2 minutes. The speed (in km/hr) of the man in still water is:
+</p>
+</div>
+<script>
+var x=1000;
+y=3/4;
+var dis=x*y;
+var uptime=45/4;
+uptime=uptime*60;
+var downtime=15/2;
+downtime=downtime*60;
+var upstream=dis/uptime;
+var downstream=dis/downtime
+var stream =upstream+downstream;
+stream=stream/2;
+m=18/5;
+stream=stream*m;
+console.log("The speed (in km/hr) of the man in still water is "+stream);
+</script>
+</body>
+</html>

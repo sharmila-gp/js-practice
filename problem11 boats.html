@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A man swims 12 km downstream and 10 km upstream. If he takes 2 hours each time, what is the speed of the stream?
+</p>
+</div>
+<script>
+var downdis=12;
+var updis=10;
+var time=2;
+var dowsp=downdis/time;
+var upsp=updis/time;
+var stream=dowsp-upsp;
+stream=stream/2;
+console.log("the speed of the stream is "+stream+" km/hr");
+</script>
+</body>
+</html>

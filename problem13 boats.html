@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A man can row, 5km/hr in still water and the velocity of the stream is 1.5 km/hr. He takes an hour when he travels upstream to a place and returns back to the starting point. How far is the place from the starting point?
+</p>
+</div>
+<script>
+var still=5;
+var stream=1.5;
+var time=1;
+var upstr=still-stream;
+var dowstr=still+stream;
+var x=dowstr+upstr;
+console.log(x);
+var y=dowstr*upstr;
+console.log(y);
+ y=y*time;
+ x=y/x;
+console.log("the place from the starting point: "+x+" km");
+</script>
+</body>
+</html>

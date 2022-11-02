@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+
+<p>
+A man can row at 5 kmph in still water. If the velocity of current is 1 kmph and it takes him 1 hour to row to a place and come back, how far is the place?
+</p>
+</div>
+<script>
+var speed=5;
+var velocity=1;
+var time=1;
+var up=speed-velocity;
+var down=speed+velocity;
+var x=up*down;
+var y=up+down;
+var dis=x/y;
+console.log("the distance is "+dis+" km");
+</script>
+</body>
+</html>

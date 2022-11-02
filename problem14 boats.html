@@ -1,0 +1,35 @@
+<html>
+<head>
+<style>
+.box{
+width:25%;
+margin:250px auto;
+border:2px solid blue;
+}
+p{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="box">
+<p>
+A boatman can row a certain distance down the stream in 2 hours and can row the same distance up the stream in 3 hours. If the velocity of the stream is 4km/hr, what is the speed of the boat in still water?
+</p>
+</div>
+<script>
+var dowti=2;
+var upti=3;
+var speedstr=4;
+var x=upti-dowti;
+var y=upti*dowti*speedstr;
+x=y/x;
+var dis=x*2;
+var upsp=dis/upti;
+var dowsp=dis/dowti;
+var speed=upsp+dowsp;
+speed=speed/2;
+console.log("the speed of the boat in still water: "+speed+" km/hr");
+</script>
+</body>
+</html>
